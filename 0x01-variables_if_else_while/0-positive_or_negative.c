@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main- Entry
+ * Description: Computes and print user's position
+ * Return: 0
+*/
 int main(void)
 {
 	int n;
