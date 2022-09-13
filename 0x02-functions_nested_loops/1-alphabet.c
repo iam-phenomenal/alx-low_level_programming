@@ -9,7 +9,7 @@
 int main(void)
 {
 	char start = 'a';
-	for (start; start <= z; start++)
+	for (start; start <= 'z'; start++)
 	{
 		_putchar(start);
 	}
