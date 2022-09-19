@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev- Entry
+ * rev_string- Entry
  * @s: String to be printed
  * Description: Print string in reverse
  * Return: void
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int length = 0;
 
