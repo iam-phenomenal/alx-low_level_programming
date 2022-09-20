@@ -10,18 +10,20 @@ void rev_string(char *s)
 {
 	int length = 0;
 	int rev_index = 0;
-	char *tmp_holder = s;
+	int half;
+	char tmp_holder;
 
 	while (s[length] != '\0')
 	{
 		length++;
 	}
-	length--;
+	half = length / 2;
 
-	while(length >= 0)
+	while(half--)
 	{
-		s[rev_index] = tmp_holder[length];
+		tmp_holder = s[length - rev_index - 1];
+		s[length - rev_index - 1] = s[rev_index];
+		s[rev_index] = tmp_holder;
 		rev_index++;
-		length--;
 	}
 }
