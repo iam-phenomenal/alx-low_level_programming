@@ -19,7 +19,7 @@ void rev_string(char *s)
 	}
 	half = length / 2;
 
-	while(half--)
+	while (half--)
 	{
 		tmp_holder = s[length - rev_index - 1];
 		s[length - rev_index - 1] = s[rev_index];
