@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 /**
- * _calloc: Entry
+ * _calloc- Entry
  * @nmemb: size of array
  * @size: size of memory
  * Description: allocate memory using malloc
- * Return: void
+ * Return: NULL || pointer
 */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *mem;
